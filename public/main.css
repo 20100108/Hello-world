@@ -1,0 +1,19 @@
+button{
+   border-top: 1px solid #629aba;
+   background: #60a1cc;
+   background: -webkit-gradient(linear, left top, left bottom, from(#254459), to(#60a1cc));
+   background: -webkit-linear-gradient(top, #254459, #60a1cc);
+   background: -moz-linear-gradient(top, #254459, #60a1cc);
+   background: -ms-linear-gradient(top, #254459, #60a1cc);
+   background: -o-linear-gradient(top, #254459, #60a1cc);
+
+button:hover {
+   border-top-color: #FFE4C4;
+   background: #FFE4C4;
+   color: #FFE4C4;
+
+   }
+button:active {
+   border-top-color: #FFE4C4;
+   background: #FFE4C4;
+   }

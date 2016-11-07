@@ -5,8 +5,8 @@ const url = require('url');
 const querystring = require('querystring');
 
 const todos = [
-    {id: Math.random() + '' ,message:"eat :) ", completed: false},
-    {id: Math.random() + '' ,message:"homework",  completed: false}
+    {id: Math.random() + '' ,message:"Make homework :)", completed: false},
+    {id: Math.random() + '' ,message:"go to sport",  completed: false}
 ];
 
 const server= http.createServer(function(req, res){
@@ -93,4 +93,4 @@ const server= http.createServer(function(req, res){
         }
     }
 });
-server.listen(9898);
+server.listen(5555);
